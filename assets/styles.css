@@ -6,17 +6,17 @@
 
 :root{
   /* PALETA — jasna, architektoniczna, chłodna */
-  --paper:#f7f6f3;          /* główne tło */
-  --paper-2:#e9e7e1;        /* sekcje alternatywne (chłodny jasny szary) */
-  --paper-3:#e9e7e1;        /* delikatne wypełnienia */
-  --ink:#1f1d1a;            /* tekst główny — chłodny grafit */
-  --ink-soft:#46423b;       /* nagłówki drugorzędne */
-  --muted:#888178;          /* tekst poboczny */
-  --line:rgba(31,29,26,.12);/* hairline */
-  --accent:#a86f3e;         /* stonowany petrol-slate — jedyny akcent */
-  --accent-d:#855526;
-  --accent-soft:rgba(168,111,62,.10);
-  --dark:#1f1d1a;           /* sekcje ciemne (stopka/CTA) */
+  --paper:#F3F1EC;          /* główne tło */
+  --paper-2:#E6E3DB;        /* sekcje alternatywne (chłodny jasny szary) */
+  --paper-3:#E6E3DB;        /* delikatne wypełnienia */
+  --ink:#23211E;            /* tekst główny — chłodny grafit */
+  --ink-soft:#43403A;       /* nagłówki drugorzędne */
+  --muted:#87837A;          /* tekst poboczny */
+  --line:rgba(35,33,30,.12);/* hairline */
+  --accent:#8A6B3C;         /* stonowany petrol-slate — jedyny akcent */
+  --accent-d:#6E5430;
+  --accent-soft:rgba(138,107,60,.10);
+  --dark:#23211E;           /* sekcje ciemne (stopka/CTA) */
 
   /* HOVER ZDJĘĆ — JEDEN standard dla całego silnika (decyzja K. 04.08.2026, artefakt z wariantami).
      AKTUALNE (K.+Szymon 09.08.2026, wybór z artefaktu 6 wariantów): zoom 1.05 przy 1.4s -
@@ -55,7 +55,7 @@
 
   --hairline:1px solid var(--line);
 
-  --font-display:'Sora','Manrope',sans-serif;
+  --font-display:'Lora',serif;
   --font-body:'Manrope',sans-serif;
 }
 
